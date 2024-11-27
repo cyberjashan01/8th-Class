@@ -1,0 +1,7 @@
+students = ("John", "Alice", "Robert", "Sophia")
+students_list = list(students)  # Convert to list
+students_list.remove("Robert")  # Remove a student
+students = tuple(students_list)  # Convert back to tuple
+
+print("After removing a student:")
+print(students)
