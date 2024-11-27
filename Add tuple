@@ -1,0 +1,6 @@
+students = ("John", "Alice", "Robert")
+students_list = list(students)  # Convert to list
+students_list.append("Sophia")  # Add new student
+students = tuple(students_list)  # Convert back to tuple
+print("After adding a new student:")
+print(students)
