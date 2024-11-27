@@ -1,13 +1,7 @@
-# Initial list
 fruits = ["Apple", "Banana", "Cherry"]
-
-# Adding items
 fruits.append("Orange")  # Adding at the end
 fruits.insert(1, "Mango")  # Adding at a specific position
-
-# Removing items
 fruits.remove("Banana")  # Removes "Banana" from the list
 last_fruit = fruits.pop()  # Removes the last item ("Orange")
-
 print("Updated List:", fruits)
 print("Removed Item:", last_fruit)
