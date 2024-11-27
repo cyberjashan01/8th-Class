@@ -1,0 +1,5 @@
+vegetables = ["Carrot", "Potato"]
+vegetables.extend(["Tomato", "Onion", "Spinach"])
+print("List after adding items:", vegetables)
+vegetables.clear()
+print("List after clearing:", vegetables)
